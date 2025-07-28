@@ -87,7 +87,7 @@ body {
  .icone-input {
     position: absolute;
     left: 15px;
-    color: rgba(255,255,255,0.7);
+    color: rgba(0, 0, 0, 0.9);
     font-size: 1.1rem;
     z-index: 3;
  }
@@ -111,5 +111,67 @@ body {
  }
 
  .grupo-input input::placeholder {
-    color: rgba(255,255,255,0.7);
+    color: rgba(0, 0, 0, 0.7);
  }
+
+.opcoes-formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px; 
+    gap: 0px;
+    font-size: 14px;
+}
+
+.esqueceu-senha { /* remocao de underline */
+    text-decoration: none;
+    color: black;
+}
+
+.botao-login { /* ajuste de bordar e cor */
+    border: solid rgba(255,255,255,0.4);
+    border-radius: 25px;
+    color: rgba(0, 0, 0, 0.9);
+    background-color: white;
+}
+
+.secao-cadastro { /* alinhamento lembre me e esqueceu senha */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px; 
+    gap: 0px;
+    margin-top: 25px;
+}
+
+.texto-cadastrado { /* ajuste tamanho da frase */
+  font-size: 13px;     
+  margin-left: 26px;
+  width: 80%;          
+  padding: 10px 0;   
+  margin: 10px auto 0;   
+}
+
+.secao-cadastro p { /* ajuste frase de registro */
+  display: inline;
+  margin: 10; /* para eliminar espaçamentos extras */
+  gap: 5px;
+  padding: 0;
+  display: flex; 
+  justify-content: center;
+
+}
+.botao-login { /* ajuste tamanho */
+  width: 100%;       
+  max-width: 350px;   
+  height: 50px;       
+  padding: 12px 20px; 
+  font-size: 18px;    
+  border-radius: 50px; 
+  cursor: pointer;  /* mostrar que e clicavel */
+}
+
+.botao-cadastrar {
+    color: #518aef; 
+}
+
