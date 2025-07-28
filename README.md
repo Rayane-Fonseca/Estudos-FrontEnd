@@ -1,3 +1,5 @@
+### Projeto Tela de Login
+Este projeto é uma aplicação frontend simples que implementa uma tela de login. O objetivo é oferecer uma interface limpa e funcional para que os usuários possam inserir suas credenciais e acessar o sistema.
 
 ### 🤖 Linguagens e Tecnologias
 
