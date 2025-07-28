@@ -24,7 +24,4 @@
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
 />
-<br></br>
-### ⚙️ Analytics 
 
-![Github Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rayane-fonseca/Estudos-FrontEnd&layout=compact&count_private=true)
